@@ -45,10 +45,10 @@ Then activate with jQuery like so:
 
 ### Events
 
-The `change` event is fired when items are reordered.
+The `dragstop` event is fired when items are reordered.
 
-    $('.dd').on('change', function() {
-        /* on change event */
+    $('.dd').on('dragstop', function() {
+        /* on dragstop event */
     });
 
 ### Methods
